@@ -299,13 +299,23 @@
         <form
           class="flex"
           action="https://formspree.io/f/xdobralq"
-          method="post"
+          method="#"
           id="mail"
         >
+          <!-- <input
+            name="fname"
+            id="name"
+            maxlength="300"
+            placeholder="First Name"
+          />
+           -->
           <input
             name="fname"
             id="name"
+            maxlength="300"
+            placeholder="First Name"
           />
+          <input name="lastname" id="lastname" />
           <input
             name="email"
             type="text"
@@ -313,10 +323,7 @@
             placeholder="Email address"
             id="email"
           />
-          <textarea
-            name="message"
-            placeholder="Enter text here"
-          ></textarea>
+          <textarea name="message" placeholder="Enter text here"></textarea>
           <button class="special" type="submit">Get in touch</button>
         </form>
       </section>
